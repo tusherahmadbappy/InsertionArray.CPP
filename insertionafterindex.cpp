@@ -19,7 +19,7 @@ int main(){
 
     }
 
-    cout<<endl<<"Which before index insert element you want: ";
+    cout<<endl<<"Which after index insert element you want: ";
     cin>>index;
 
     cout<<endl<<"How value insert array you want: ";
