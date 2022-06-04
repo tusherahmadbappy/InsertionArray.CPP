@@ -25,7 +25,7 @@ int main(){
     cout<<endl<<"How value insert array you want: ";
     cin>>value;
 
-    for(i=size;i>=index-1;i--)
+    for(i=size;i>=index+1;i--)
     {
         arr[i+1] = arr[i];
     }
