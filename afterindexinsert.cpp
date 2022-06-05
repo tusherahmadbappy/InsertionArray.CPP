@@ -7,18 +7,18 @@ int main(){
     cin>>size;
     //user input array element
     for(i=0; i<size; i++){
-        cout << "Index of arr[" << i << "] is: ";
+        cout << "Index of arr "<<i<<" is: ";
         cin>>arr[i];
     }
 
     cout<<endl<<"Before insert elements: "<<endl;
     for(i=0; i<size; i++){
-        cout << "Index of arr[" << i << "] element is: " << arr[i]<<endl;;
+        cout << "Index of arr "<<i<<" is: " << arr[i]<<endl;;
     }
 
-    cout<<"Which after index insert element you want: ";
+    cout<<endl<<"Which after index insert element you want: ";
     cin>>index;
-    cout<<endl<<"How value insert array you want: ";
+    cout<<"How value insert array you want: ";
     cin>>value;
 
     for(int i=size;i>index-1;i--){
@@ -28,7 +28,7 @@ int main(){
 
     cout<<endl<<"After insert elements: "<<endl;
     for(i=0; i<=size; i++){
-        cout<< "Index of arr[" << i << "] element is: "<<arr[i]<<endl;
+        cout<< "Index of arr "<<i<<" is: "<<arr[i]<<endl;
     }
 
     return 0;
