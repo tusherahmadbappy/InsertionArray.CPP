@@ -19,20 +19,24 @@ int main(){
 
     }
 
-    cout<<endl<<"How value insert array you want: ";
+    cout<<"\n\nWhich index update you want: ";
+    cin>>index;
+
+    cout<<"Which element updated index insert you want: ";
     cin>>value;
 
-    for(i=0;i<size;i++)
+    for(int i=0; i<size; i++)
     {
-       if(arr[i]==size){
-           arr[i+1]=value;
-       }
+        if(i==index)
+            arr[i]=value;
     }
-    cout<<endl<<"After update elements: ";
-    cout<<endl;
-    for(i=0; i<=size; i++){
-        cout<< "Index of arr "<<i<<" is: "<<arr[i]<<endl;
+    cout<<"Updated elements: \n";
+    for(int i=0; i<size; i++)
+    {
+        cout<<"Index of arr "<<i<<" is: "<<arr[i]<<endl;
+
     }
+
 
     return 0;
 
